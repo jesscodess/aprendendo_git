@@ -1,0 +1,11 @@
+O GIT é uma maneira de fazer um controle de versões de arquivos referentes a um projeto de software, aplicativo ou website.
+Ele pode ser executado de duas maneiras: localmente e remotamente.
+Localmente, você pode criar um repositório GIT no seu computador e trabalhar com ele por meio do terminal. Alguns comandos que podem ser usados no Linux para trabalhar com o GIT:
+• "git init" cria um repositório GIT no computador. No Linux, esse repositório aparecerá como pasta oculta, de nome .git.
+• "git add" adiciona um arquivo ao repositório GIT e faz com que ele passe para a fase de staging ou preparação. O "git add" pode ser usado tanto para adicionar um arquivo específico, por meio de "git add nomedoarquivo.extensao", ou para adicionar todos os arquivos contidos no repositório GIT, por meio de "git add ."
+• "git commit -m nomedocommit" faz o commit do arquivo, isto é, coloca-o "oficialmente" entre os arquivos do projeto depois que ele já passou pelo processo de desenvolvimento e alterações necessárias.
+• "git status" mostra informações importantes sobre o status do projeto, principalmente o status de arquivos adicionados/comitados ou não adicionados/não comitados.
+• "git log" mostra um log da atividade nos arquivos do repositório, isto é, um relatório mais detalhado sobre as alterações que foram feitas, incluindo quem as fez e quando.
+• "touch .gitignore" cria um arquivo editável em que podemos listar os nomes dos arquivos que não queremos que sejam automaticamente adicionados ao repositório, ou que queremos que fiquem ocultos.
+Remotamente, pode-se usar repositórios em nuvem, como o GitHub, o GitLab ou o BitBucket. Para clonar um repositório disponível remotamente para nosso computador, usamos no terminal o comando "git clone" + HTTP do repositório. Para enviar um arquivo de nosso próprio computador para o GitHub, usamos o comando "git push" junto ao link HTTPS ou SSH de um repositório previamente criado com o objetivo de abrigar os arquivos de nosso projeto. Podemos também acessar um arquivo que esteja no repositório remoto por meio do comando "git pull".
+Além do terminal, podemos usar clientes de GIT com interfaces gráficas, que ajudam a visualizar melhor o processo.
